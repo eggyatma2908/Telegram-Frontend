@@ -9,7 +9,7 @@ export default {
   name: 'Main',
   data () {
     return {
-      socket: io('https://telegram-backend-eggy.fwdev.online')
+      socket: io('https://telegram-backend-eggy.fwdev.online', { transports: ['websocket'] })
     }
   }
 }
