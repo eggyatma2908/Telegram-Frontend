@@ -9,7 +9,7 @@ export default {
   name: 'Main',
   data () {
     return {
-      socket: io('http://localhost:4000/')
+      socket: io('https://telegram-backend-eggy.fwdev.online')
     }
   }
 }
