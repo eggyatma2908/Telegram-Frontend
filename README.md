@@ -71,14 +71,15 @@ VUE_APP_REFRESH_TOKEN_KEY =
 <!-- ROADMAP -->
 ## Screenshots
 
+<div display="flex" justify-content="space-around">
 <p align='center'>
   <span>
       <image width="300" src='./Screenshot/Login.png' />
       <image width="300" src='./Screenshot/Profile2.png' />
       <image width="300" src='./Screenshot/Room Chat2.png' />
       <image width="300" src='./Screenshot/Friend Profile2.png' />
-     
-
+ </div>
+  
 <!-- CONTRIBUTING -->
 ## Contributing
 
