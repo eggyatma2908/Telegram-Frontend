@@ -33,7 +33,7 @@
 ## About The Project
 
 
-Telegram created using Vue JS framework, which the functions for online order foods services using vue stripe as the card payment. User can choose food and drink according to the type. Made with a design that is not complicated and user friendly.
+Telegram Web is a fast and easy-to-use instant messaging service. Just like other instant messages, the way this application works is by sending and receiving messages in chat rooms. This application is built with Vue JS and Vue Bootsrap
 
 ### Built with
 * [Vue JS](https://vuejs.org/)
