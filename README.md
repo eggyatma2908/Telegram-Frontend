@@ -76,7 +76,7 @@ VUE_APP_REFRESH_TOKEN_KEY =
       <image width="200" height="200" src='./Screenshot/Login1.png' />
       <image width="200" height="200" src='./Screenshot/Profile.png' />
       <image width="200" height="200" src='./Screenshot/Room Chat.png' />
-      <image width="200" height="200" src='./Screenshot/Friend Profile' />
+      <image width="200" height="200" src='./Screenshot/Friend Profile.png' />
      
 
 <!-- CONTRIBUTING -->
