@@ -3,7 +3,7 @@
 
   <h3 align="center">Coffee Shop Web</h3>
   <p align="center" class="flex">
-    <image align="center" width="100" src='' />
+    <image align="center" width="100" src='./src/assets/logo.png' />
   </p>
 
   <p align="center">
@@ -64,10 +64,6 @@ VUE_APP_URL_API =
 VUE_APP_BASE_URL = 
 VUE_APP_ACCESS_TOKEN_KEY = 
 VUE_APP_REFRESH_TOKEN_KEY = 
-VUE_APP_STRIPE_USERNAME = 
-VUE_APP_STRIPE_PASSWORD = 
-VUE_APP_STRIPE_PUBLIC_KEY = 
-VUE_APP_STRIPE_SECRET_KEY = 
 ```
 
 
@@ -97,37 +93,9 @@ Contributions are what make the open source community such an amazing place to b
 
 
 ## Related Project
-* [`Telegram Frontend`](https://github.com/eggyatma2908/Telegram-Frontend)
+* [`Telegram Backend`](https://github.com/eggyatma2908/Telegram-Backend)
 
 
-## Contributors
-<center>
-  <table>
-    <tr>
-      <td align="center">
-        <a href="https://github.com/Gefyaqiilah">
-          <img width="150" src="https://avatars.githubusercontent.com/u/54069791?s=400&u=d52c9220de7f217fab6be5eed1a2f237325ef741&v=4" alt="Gefy Aqiilah Aqshal"><br/>
-          <b>Gefy Aqiilah Aqshal</b>
-        </a>
-      </td>
-      <td align="center">
-        <a href="https://github.com/sjasminetya">
-          <img width="150" src="https://avatars.githubusercontent.com/u/36390515?v=4" alt="Shaula Jasminetya Saga"><br/>
-          <b>Shaula Jasminetya Saga</b>
-        </a>
-      </td>
-      <td align="center">
-        <a href="https://github.com/eggyatma2908">
-          <img width="150" src="https://avatars.githubusercontent.com/u/26200397?v=4" alt="Eggy Atma"><br/>
-          <b>Eggy Atma</b>
-        </a>
-      </td>
-       <td align="center">
-        <a href="https://github.com/renaldipratama97">
-          <img width="150" src="https://avatars.githubusercontent.com/u/72293996?v=4" alt="Renaldi Pratama Tumanggor"><br/>
-          <b>Renaldi Pratama Tumanggor</b>
-        </a>
-      </td>
-    </tr>
-  </table>
-</center>
+## Contact
+Email : eggyatmariansyah@gmail.com <br>
+LinkedIn : https://www.linkedin.com/in/eggyatmariansyah/
