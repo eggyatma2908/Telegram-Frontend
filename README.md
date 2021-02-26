@@ -1,7 +1,7 @@
 <br />
 <p align="center">
 
-  <h3 align="center">Coffee Shop Web</h3>
+  <h3 align="center">Telegram Web</h3>
   <p align="center" class="flex">
     <image align="center" width="200" src='./src/assets/logo.png' />
   </p>
@@ -33,7 +33,7 @@
 ## About The Project
 
 
-Coffee Shop created using Vue JS framework, which the functions for online order foods services using vue stripe as the card payment. User can choose food and drink according to the type. Made with a design that is not complicated and user friendly.
+Telegram created using Vue JS framework, which the functions for online order foods services using vue stripe as the card payment. User can choose food and drink according to the type. Made with a design that is not complicated and user friendly.
 
 ### Built with
 * [Vue JS](https://vuejs.org/)
