@@ -3,7 +3,7 @@
 
   <h3 align="center">Coffee Shop Web</h3>
   <p align="center" class="flex">
-    <image align="center" width="100" src='./src/assets/logo.png' />
+    <image align="center" width="200" src='./src/assets/logo.png' />
   </p>
 
   <p align="center">
@@ -60,8 +60,8 @@ npm install
 ```
 3. Add .env file at root folder project, and add following
 ```sh
-VUE_APP_URL_API = 
-VUE_APP_BASE_URL = 
+VUE_APP_URL_API = [Backend API]
+VUE_APP_BASE_URL = [Frontend API]
 VUE_APP_ACCESS_TOKEN_KEY = 
 VUE_APP_REFRESH_TOKEN_KEY = 
 ```
