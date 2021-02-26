@@ -73,8 +73,8 @@ VUE_APP_REFRESH_TOKEN_KEY =
 
 <p align='center'>
   <span>
-      <image width="200" height="200" src='#' />
-      <image width="200" height="200" src='#' />
+      <image width="200" height="200" src='./Screenshot/Login1.png' />
+      <image width="200" height="200" src='./Screenshot/Profile.png' />
       <image width="200" height="200" src='#' />
       <image width="200" height="200" src='#' />
      
