@@ -265,7 +265,7 @@ export default {
       })
     },
     send () {
-      if (this.input.message.length > 0) {
+      if (this.inputmessage.length > 0) {
         const dataMessage = {
           message: this.inputMessage,
           senderId: this.getUserById.id,
