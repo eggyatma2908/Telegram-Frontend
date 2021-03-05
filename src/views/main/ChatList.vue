@@ -56,7 +56,7 @@
                                         </div>
                                     </div>
                                     <div class="box3" v-if="checkMessages().length !== 0 && checkMessages().filter(e => e.senderName === friend.name).length !== 0">
-                                        <p class="time">{{moment(checkMessages().filter(e => e.senderName === friend.name).slice(-1)[0].createdAt).format('hh:mm')}}</p>
+                                        <p class="time">{{moment(checkMessages().filter(e => e.senderName === friend.name).slice(-1)[0].time).format('hh:mm')}}</p>
                                         <!-- <div class="notification">
                                             <p id="notification">{{checkMessages().filter(e => e.senderName === friend.name).length}}</p>
                                         </div> -->
@@ -82,7 +82,7 @@
                                         </div>
                                     </div>
                                     <div class="box3" v-if="checkMessages().length !== 0 && checkMessages().filter(e => e.senderName === friend.name).length !== 0">
-                                        <p class="time">{{moment(checkMessages().filter(e => e.senderName === friend.name).slice(-1)[0].createdAt).format('hh:mm')}}</p>
+                                        <p class="time">{{moment(checkMessages().filter(e => e.senderName === friend.name).slice(-1)[0].time).format('hh:mm')}}</p>
                                         <!-- <div class="notification">
                                             <p id="notification">{{checkMessages().filter(e => e.senderName === friend.name).length}}</p>
                                         </div> -->
@@ -118,7 +118,7 @@
                                 </div>
                                 <div :class="chating.senderId === id ? 'boxchatleft' : 'boxchatright'" v-if="chating.senderId === id || chating.receiverId === id">
                                     <p>{{chating.message}}</p>
-                                    <p class="time" style="text-align: right; font-size: 12px; margin: 0">{{moment(chating.createdAt).format('hh:mm')}}</p>
+                                    <p class="time" style="text-align: right; font-size: 12px; margin: 0">{{moment(chating.time).format('hh:mm')}}</p>
                                 </div>
                             </div>
                         </div>
