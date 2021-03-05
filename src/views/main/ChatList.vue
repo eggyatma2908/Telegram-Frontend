@@ -270,7 +270,8 @@ export default {
         senderId: this.getUserById.id,
         receiverId: this.$route.params.id,
         profileSender: this.getUserById.photoProfile,
-        senderName: this.getUserById.name
+        senderName: this.getUserById.name,
+        time: ''
       }
       this.socket.emit('privateMessage', dataMessage, data => {
         this.messages.push(data)
