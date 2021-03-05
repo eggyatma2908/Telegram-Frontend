@@ -265,17 +265,18 @@ export default {
       })
     },
     send () {
-      const dataMessage = {
-        message: this.inputMessage,
-        senderId: this.getUserById.id,
-        receiverId: this.$route.params.id,
-        profileSender: this.getUserById.photoProfile,
-        senderName: this.getUserById.name
+      if (this.input.message.length > 0) {
+        const dataMessage = {
+          message: this.inputMessage,
+          senderId: this.getUserById.id,
+          receiverId: this.$route.params.id,
+          profileSender: this.getUserById.photoProfile,
+          senderName: this.getUserById.name
+        }
+        this.socket.emit('privateMessage', dataMessage, data => {
+          this.inputMessage = ''
+        })
       }
-      this.socket.emit('privateMessage', dataMessage, data => {
-        this.messages.push(data)
-      })
-      this.inputMessage = ''
     }
   },
   computed: {
